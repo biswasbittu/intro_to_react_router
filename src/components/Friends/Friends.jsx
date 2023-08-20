@@ -2,8 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import Friend from "../Friend/Friend";
 const Friends = () => {
   const friends = useLoaderData();
-  console.log(friends);
-
+ 
   return (
     <div>
       <h1>This is friend{friends.length} </h1>
