@@ -13,6 +13,9 @@ const Header = () => {
             <Link to="/contact">
             Contact Us
             </Link>
+            <Link to="/friends">
+            Friends
+            </Link>
 
         </nav>
     );
